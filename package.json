@@ -1,0 +1,34 @@
+{
+  "name": "@huxy/fss",
+  "version": "0.0.1",
+  "title": "fss",
+  "feature": "0.0.1",
+  "hooks": "0.0.1",
+  "type": "module",
+  "description": "node.js file system",
+  "homepage": "https://github.com/ahyiru/fss",
+  "keywords": [
+    "node.js",
+    "filesystem",
+    "fss"
+  ],
+  "sideEffects": false,
+  "main": "./lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "start": "node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ahyiru/fss"
+  },
+  "license": "MIT",
+  "dependencies": {},
+  "engines": {
+    "node": "^14.15.0 || ^16.10.0 || >=18.0.0"
+  },
+  "author": "yiru"
+}
